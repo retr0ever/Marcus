@@ -1,0 +1,92 @@
+# Marcus Configuration
+# ====================
+# Default configuration for the Marcus face analysis system
+
+# Data paths
+data_dir: "data"
+models_dir: "models"
+logs_dir: "logs"
+
+# Face Detection
+detection:
+  model: "yolov8n-face"
+  model_path: null  # Uses default path
+  confidence_threshold: 0.5
+  nms_threshold: 0.4
+  min_face_size: 20
+  max_faces: 10
+  device: "auto"
+  input_size: [640, 640]
+
+# Face Alignment
+alignment:
+  enabled: true
+  target_size: 112
+  landmarks: "5point"
+
+# Embedding Extraction
+embedding:
+  model_path: null  # Uses default ArcFace model
+  backbone: "r100"  # r100, r50, mobilefacenet
+  embedding_dim: 512
+  normalize: true
+  device: "auto"
+  fp16: false
+  batch_size: 32
+
+# Vector Database
+vectordb:
+  dimension: 512
+  metric: "cosine"
+  index_type: "Flat"  # Flat, IVF_Flat, IVF_PQ, HNSW
+  nlist: 100
+  nprobe: 10
+  persist_path: "data/faiss_index"
+  auto_save: true
+
+# Identity Matching
+matching:
+  similarity_threshold: 0.6
+  top_k: 10
+  algorithm: "cosine"
+  use_reranking: true
+  reranking_weights:
+    face_similarity: 0.7
+    recency: 0.2
+    source_quality: 0.1
+
+# Training (for continual learning)
+training:
+  enabled: false
+  learning_rate: 0.0001
+  margin: 0.5
+  loss_type: "triplet"  # triplet, arcface
+  buffer_size: 5000
+
+# OSINT Sources
+osint:
+  enabled: false
+  rate_limit: 1.0  # requests per second
+  max_results: 20
+  sources:
+    - name: "web_images"
+      enabled: false
+    - name: "datasets"
+      enabled: true
+
+# Compliance (UK GDPR)
+compliance:
+  enabled: true
+  audit_log_path: "logs/audit"
+  log_retention_days: 90
+  require_consent: true
+  consent_expiry_days: 365
+  data_protection_officer: null
+
+# API Settings
+api:
+  host: "0.0.0.0"
+  port: 8000
+  debug: false
+  cors_origins: ["*"]
+  rate_limit: 100  # requests per minute

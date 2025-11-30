@@ -1,0 +1,113 @@
+# =============================================================================
+# MARCUS Facial Analysis System - Git Ignore
+# =============================================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Documentation
+docs/_build/
+site/
+
+# =============================================================================
+# Project Specific
+# =============================================================================
+
+# Model weights (large files - download separately)
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.bin
+models/*.safetensors
+!models/.gitkeep
+
+# Data directories (contain user data)
+data/vector_db/*
+data/identities/*
+data/osint_cache/*
+data/audit_logs/*
+!data/vector_db/.gitkeep
+!data/identities/.gitkeep
+!data/osint_cache/.gitkeep
+!data/audit_logs/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Uploaded files
+uploads/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and credentials
+.env
+.env.local
+.env.*.local
+secrets.yaml
+credentials.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv

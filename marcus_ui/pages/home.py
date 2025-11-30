@@ -12,7 +12,7 @@ def render():
     """Render the home page."""
     
     st.markdown(
-        '<h1 class="main-header">👁️ Marcus Face Analysis</h1>',
+        '<h1 class="main-header">Marcus Face Analysis</h1>',
         unsafe_allow_html=True,
     )
     
@@ -30,7 +30,7 @@ def render():
     with col1:
         st.markdown("""
         <div class="metric-card">
-            <h3>📹 Live Detection</h3>
+            <h3>Live Detection</h3>
             <p>Real-time face detection using your webcam with 
             instant identity matching.</p>
         </div>
@@ -39,8 +39,8 @@ def render():
     with col2:
         st.markdown("""
         <div class="metric-card">
-            <h3>🔍 Photo Search</h3>
-            <p>Upload a photo to search for matching identities 
+            <h3>Photo Search</h3>
+            <p>Upload a photograph to search for matching identities 
             in the database.</p>
         </div>
         """, unsafe_allow_html=True)
@@ -48,33 +48,33 @@ def render():
     with col3:
         st.markdown("""
         <div class="metric-card">
-            <h3>➕ Enrollment</h3>
-            <p>Enroll new identities with one or more reference 
-            photos for future matching.</p>
+            <h3>Enrolment</h3>
+            <p>Enrol new identities with one or more reference 
+            photographs for future matching.</p>
         </div>
         """, unsafe_allow_html=True)
     
     st.markdown("---")
     
     # Quick start guide
-    st.subheader("🚀 Quick Start")
+    st.subheader("Quick Start")
     
     st.markdown("""
-    1. **Initialize the Pipeline**: Go to ⚙️ Settings and configure your pipeline.
-    2. **Enroll Identities**: Add known faces using the ➕ Enroll Identity page.
-    3. **Search**: Use 📹 Live Detection or 🔍 Photo Search to find matches.
+    1. **Initialise the Pipeline**: Go to Settings and configure your pipeline.
+    2. **Enrol Identities**: Add known faces using the Enrol Identity page.
+    3. **Search**: Use Live Detection or Photo Search to find matches.
     """)
     
     # System capabilities
-    st.subheader("✨ Capabilities")
+    st.subheader("Capabilities")
     
     capabilities = [
-        ("Face Detection", "YOLOv8-Face with RetinaFace fallback", "✅"),
-        ("Embedding Extraction", "ArcFace R100/R50/MobileFaceNet", "✅"),
-        ("Vector Database", "FAISS with HNSW/IVF indexing", "✅"),
-        ("Identity Matching", "Cosine similarity with re-ranking", "✅"),
-        ("Compliance", "UK GDPR with audit logging", "✅"),
-        ("Continual Learning", "Hard example mining and replay", "✅"),
+        ("Face Detection", "YOLOv8-Face with RetinaFace fallback", "Yes"),
+        ("Embedding Extraction", "ArcFace R100/R50/MobileFaceNet", "Yes"),
+        ("Vector Database", "FAISS with HNSW/IVF indexing", "Yes"),
+        ("Identity Matching", "Cosine similarity with re-ranking", "Yes"),
+        ("Compliance", "UK GDPR with audit logging", "Yes"),
+        ("Continual Learning", "Hard example mining and replay", "Yes"),
     ]
     
     for name, desc, status in capabilities:
@@ -90,7 +90,7 @@ def render():
     
     # Performance metrics (if pipeline is available)
     if "pipeline" in st.session_state and st.session_state.pipeline is not None:
-        st.subheader("📊 Current Statistics")
+        st.subheader("Current Statistics")
         
         try:
             stats = st.session_state.pipeline.get_statistics()
@@ -125,4 +125,4 @@ def render():
         except Exception as e:
             st.error(f"Error loading statistics: {e}")
     else:
-        st.info("💡 Initialize the pipeline in Settings to see statistics.")
+        st.info("Initialise the pipeline in Settings to see statistics.")

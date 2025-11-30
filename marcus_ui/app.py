@@ -21,7 +21,7 @@ from marcus_ui.pages import home, live_detection, photo_search, enrollment, sett
 # Page configuration
 st.set_page_config(
     page_title="Marcus - Face Analysis",
-    page_icon="👁️",
+    page_icon=None,
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -30,42 +30,59 @@ st.set_page_config(
 # Custom CSS
 st.markdown("""
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+    
+    * {
+        font-family: 'Times New Roman', Times, serif !important;
+    }
+    
     .main-header {
-        font-size: 2.5rem;
-        font-weight: bold;
-        color: #1E88E5;
-        text-align: center;
-        margin-bottom: 2rem;
+        font-size: 2rem;
+        font-weight: normal;
+        color: #333;
+        text-align: left;
+        margin-bottom: 1.5rem;
+        font-family: 'Times New Roman', Times, serif;
     }
     .sub-header {
-        font-size: 1.2rem;
-        color: #666;
-        text-align: center;
-        margin-bottom: 2rem;
+        font-size: 1rem;
+        color: #555;
+        text-align: left;
+        margin-bottom: 1.5rem;
+        font-family: 'Times New Roman', Times, serif;
     }
     .metric-card {
-        background-color: #f0f2f6;
-        border-radius: 10px;
+        background-colour: #fafafa;
+        border: 1px solid #ddd;
         padding: 1rem;
-        text-align: center;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
     }
     .match-card {
-        border: 1px solid #ddd;
-        border-radius: 10px;
+        border: 1px solid #999;
         padding: 1rem;
         margin: 0.5rem 0;
+        font-family: 'Times New Roman', Times, serif;
     }
     .match-high {
-        border-color: #4CAF50;
-        background-color: #E8F5E9;
+        border-color: #333;
+        background-colour: #f5f5f5;
     }
     .match-medium {
-        border-color: #FFC107;
-        background-color: #FFF8E1;
+        border-color: #666;
+        background-colour: #fafafa;
     }
     .match-low {
-        border-color: #F44336;
-        background-color: #FFEBEE;
+        border-color: #999;
+        background-colour: #fff;
+    }
+    
+    h1, h2, h3, h4, h5, h6, p, span, div, label {
+        font-family: 'Times New Roman', Times, serif !important;
+    }
+    
+    .stMarkdown, .stText {
+        font-family: 'Times New Roman', Times, serif !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -73,11 +90,11 @@ st.markdown("""
 
 # Navigation
 PAGES = {
-    "🏠 Home": home,
-    "📹 Live Detection": live_detection,
-    "🔍 Photo Search": photo_search,
-    "➕ Enroll Identity": enrollment,
-    "⚙️ Settings": settings,
+    "Home": home,
+    "Live Detection": live_detection,
+    "Photo Search": photo_search,
+    "Enroll Identity": enrollment,
+    "Settings": settings,
 }
 
 
@@ -85,7 +102,7 @@ def main():
     """Main application entry point."""
     
     # Sidebar navigation
-    st.sidebar.title("👁️ Marcus")
+    st.sidebar.title("Marcus")
     st.sidebar.markdown("---")
     
     selection = st.sidebar.radio(
@@ -98,7 +115,7 @@ def main():
     st.sidebar.markdown("---")
     st.sidebar.markdown("### System Status")
     
-    # Check if pipeline is initialized
+    # Check if pipeline is initialised
     if "pipeline" in st.session_state and st.session_state.pipeline is not None:
         st.sidebar.success("Pipeline: Ready")
         
@@ -110,7 +127,7 @@ def main():
         except Exception:
             pass
     else:
-        st.sidebar.warning("Pipeline: Not initialized")
+        st.sidebar.warning("Pipeline: Not initialised")
         st.sidebar.info("Go to Settings to configure")
     
     # Footer

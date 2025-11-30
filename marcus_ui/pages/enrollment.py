@@ -1,8 +1,8 @@
 """
-Enrollment Page
-===============
+Enrolment Page
+==============
 
-Enroll new identities into the system.
+Enrol new identities into the system.
 """
 
 import streamlit as st
@@ -12,16 +12,16 @@ from datetime import datetime
 
 
 def render():
-    """Render the enrollment page."""
+    """Render the enrolment page."""
     
-    st.title("➕ Enroll Identity")
+    st.title("Enrol Identity")
     st.markdown(
         "Add new identities to the database for future matching."
     )
     
-    # Check if pipeline is initialized
+    # Check if pipeline is initialised
     if "pipeline" not in st.session_state or st.session_state.pipeline is None:
-        st.warning("⚠️ Pipeline not initialized. Please go to Settings first.")
+        st.warning("Pipeline not initialised. Please go to Settings first.")
         return
     
     pipeline = st.session_state.pipeline
@@ -37,7 +37,7 @@ def render():
         name = st.text_input(
             "Name",
             placeholder="John Doe",
-            help="Name of the person to enroll",
+            help="Name of the person to enrol",
         )
         
         source = st.selectbox(
@@ -55,22 +55,22 @@ def render():
         
         # Consent checkbox
         consent = st.checkbox(
-            "I confirm I have the right to enroll this person's biometric data",
+            "I confirm I have the right to enrol this person's biometric data",
             help="Required for GDPR compliance",
         )
     
     with col2:
-        st.subheader("Reference Photos")
+        st.subheader("Reference Photographs")
         
         uploaded_files = st.file_uploader(
-            "Upload photos",
+            "Upload photographs",
             type=["jpg", "jpeg", "png"],
             accept_multiple_files=True,
-            help="Upload one or more clear photos of the person's face",
+            help="Upload one or more clear photographs of the person's face",
         )
         
         if uploaded_files:
-            st.write(f"Uploaded {len(uploaded_files)} photo(s)")
+            st.write(f"Uploaded {len(uploaded_files)} photograph(s)")
             
             # Preview images
             cols = st.columns(min(len(uploaded_files), 4))
@@ -81,12 +81,12 @@ def render():
     
     st.markdown("---")
     
-    # Enrollment button
-    if st.button("Enroll Identity", type="primary", disabled=not consent):
+    # Enrolment button
+    if st.button("Enrol Identity", type="primary", disabled=not consent):
         if not name:
             st.error("Please provide a name")
         elif not uploaded_files:
-            st.error("Please upload at least one photo")
+            st.error("Please upload at least one photograph")
         else:
             with st.spinner("Enrolling identity..."):
                 try:
@@ -106,7 +106,7 @@ def render():
                         "num_photos": len(images),
                     }
                     
-                    # Enroll
+                    # Enrol
                     if len(images) == 1:
                         identity_id = pipeline.enroll(
                             image=images[0],
@@ -123,20 +123,20 @@ def render():
                         )
                     
                     if identity_id:
-                        st.success(f"✅ Successfully enrolled: {name}")
+                        st.success(f"Successfully enrolled: {name}")
                         st.info(f"Identity ID: `{identity_id}`")
                         
                         # Clear form (by rerunning)
-                        if st.button("Enroll Another"):
+                        if st.button("Enrol Another"):
                             st.rerun()
                     else:
                         st.error(
-                            "Failed to enroll identity. "
-                            "No face detected in the uploaded photos."
+                            "Failed to enrol identity. "
+                            "No face detected in the uploaded photographs."
                         )
                 
                 except Exception as e:
-                    st.error(f"Error during enrollment: {e}")
+                    st.error(f"Error during enrolment: {e}")
     
     st.markdown("---")
     
@@ -155,7 +155,7 @@ def render():
             st.write(f"Found {len(identities)} identit(ies)")
             
             for identity in identities[:20]:  # Limit display
-                with st.expander(f"👤 {identity.name or 'Unknown'}", expanded=False):
+                with st.expander(f"{identity.name or 'Unknown'}", expanded=False):
                     col1, col2 = st.columns([2, 1])
                     
                     with col1:
@@ -170,7 +170,7 @@ def render():
                     
                     with col2:
                         if st.button(
-                            "🗑️ Delete",
+                            "Delete",
                             key=f"delete_{identity.id}",
                             help="Delete this identity",
                         ):
@@ -195,14 +195,14 @@ def render():
     st.subheader("Guidelines")
     
     st.markdown("""
-    **Photo Requirements:**
-    - Clear, front-facing photos
+    **Photograph Requirements:**
+    - Clear, front-facing photographs
     - Good lighting
     - Face clearly visible
-    - Multiple photos from different angles improve matching
+    - Multiple photographs from different angles improve matching
     
     **GDPR Compliance:**
-    - Only enroll individuals with proper consent
+    - Only enrol individuals with proper consent
     - Data is stored locally with audit logging
     - Identities can be deleted upon request (right to erasure)
     """)

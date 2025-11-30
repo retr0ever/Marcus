@@ -14,14 +14,14 @@ import io
 def render():
     """Render the live detection page."""
     
-    st.title("📹 Live Detection")
+    st.title("Live Detection")
     st.markdown(
         "Detect and identify faces in real-time using your webcam."
     )
     
-    # Check if pipeline is initialized
+    # Check if pipeline is initialised
     if "pipeline" not in st.session_state or st.session_state.pipeline is None:
-        st.warning("⚠️ Pipeline not initialized. Please go to Settings first.")
+        st.warning("Pipeline not initialised. Please go to Settings first.")
         return
     
     pipeline = st.session_state.pipeline
@@ -116,17 +116,17 @@ def render():
                                 for j, match in enumerate(face_result.matches):
                                     score = match.score
                                     
-                                    # Color based on score
+                                    # Quality indicator
                                     if score >= 0.8:
-                                        color = "🟢"
+                                        quality = "High"
                                     elif score >= 0.6:
-                                        color = "🟡"
+                                        quality = "Medium"
                                     else:
-                                        color = "🔴"
+                                        quality = "Low"
                                     
                                     name = match.identity.name or "Unknown"
                                     st.write(
-                                        f"{color} {j+1}. {name}: {score:.2%}"
+                                        f"{j+1}. {name}: {score:.2%} ({quality})"
                                     )
                             else:
                                 st.info("No matches found")
@@ -156,6 +156,6 @@ def render():
     
     # Note about live streaming
     st.info(
-        "💡 For true real-time streaming, consider using streamlit-webrtc. "
+        "For true real-time streaming, consider using streamlit-webrtc. "
         "This implementation uses snapshot-based detection."
     )

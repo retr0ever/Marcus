@@ -133,13 +133,13 @@ def status_indicator(
         message: Status message
     """
     colors = {
-        "success": ("🟢", "#4CAF50"),
-        "warning": ("🟡", "#FFC107"),
-        "error": ("🔴", "#F44336"),
-        "info": ("🔵", "#2196F3"),
+        "success": "#4CAF50",
+        "warning": "#FFC107",
+        "error": "#F44336",
+        "info": "#2196F3",
     }
     
-    icon, color = colors.get(status, ("⚪", "#9E9E9E"))
+    color = colors.get(status, "#9E9E9E")
     
     st.markdown(f"""
     <div style="
@@ -149,7 +149,6 @@ def status_indicator(
         padding: 0.5rem;
         border-left: 3px solid {color};
     ">
-        <span style="font-size: 1.2rem;">{icon}</span>
         <span>{message or status.capitalize()}</span>
     </div>
     """, unsafe_allow_html=True)

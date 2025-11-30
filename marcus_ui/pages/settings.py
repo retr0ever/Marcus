@@ -13,15 +13,15 @@ import yaml
 def render():
     """Render the settings page."""
     
-    st.title("⚙️ Settings")
+    st.title("Settings")
     st.markdown(
         "Configure the Marcus face analysis system."
     )
     
     st.markdown("---")
     
-    # Pipeline initialization
-    st.subheader("🚀 Pipeline Initialization")
+    # Pipeline initialisation
+    st.subheader("Pipeline Initialisation")
     
     col1, col2 = st.columns([2, 1])
     
@@ -45,8 +45,8 @@ def render():
         st.write("")  # Spacing
         st.write("")
         
-        if st.button("Initialize Pipeline", type="primary"):
-            with st.spinner("Initializing pipeline..."):
+        if st.button("Initialise Pipeline", type="primary"):
+            with st.spinner("Initialising pipeline..."):
                 try:
                     # Import here to avoid circular imports
                     from marcus_core.config import SystemConfig
@@ -63,14 +63,14 @@ def render():
                     st.session_state.pipeline = pipeline
                     st.session_state.config = config if not config_path else None
                     
-                    st.success("✅ Pipeline initialized successfully!")
+                    st.success("Pipeline initialised successfully!")
                     
                     # Show info
                     stats = pipeline.get_statistics()
                     st.json(stats)
                 
                 except Exception as e:
-                    st.error(f"Failed to initialize pipeline: {e}")
+                    st.error(f"Failed to initialise pipeline: {e}")
                     import traceback
                     st.code(traceback.format_exc())
     
@@ -78,7 +78,7 @@ def render():
     
     # Manual configuration
     if config_source == "Manual":
-        st.subheader("📝 Manual Configuration")
+        st.subheader("Manual Configuration")
         
         tab1, tab2, tab3, tab4 = st.tabs([
             "Detection",
@@ -119,7 +119,7 @@ def render():
                 index=0,
             )
             
-            emb_normalize = st.checkbox("Normalize Embeddings", value=True)
+            emb_normalize = st.checkbox("Normalise Embeddings", value=True)
             emb_fp16 = st.checkbox("Use FP16", value=False)
         
         with tab3:
@@ -190,7 +190,7 @@ def render():
     st.markdown("---")
     
     # Current status
-    st.subheader("📊 Current Status")
+    st.subheader("Current Status")
     
     if "pipeline" in st.session_state and st.session_state.pipeline is not None:
         pipeline = st.session_state.pipeline
@@ -217,7 +217,7 @@ def render():
         col1, col2, col3 = st.columns(3)
         
         with col1:
-            if st.button("💾 Save Data"):
+            if st.button("Save Data"):
                 try:
                     pipeline.save()
                     st.success("Data saved successfully!")
@@ -225,7 +225,7 @@ def render():
                     st.error(f"Failed to save: {e}")
         
         with col2:
-            if st.button("🔄 Reload Models"):
+            if st.button("Reload Models"):
                 try:
                     pipeline.warmup()
                     st.success("Models reloaded!")
@@ -233,7 +233,7 @@ def render():
                     st.error(f"Failed to reload: {e}")
         
         with col3:
-            if st.button("🗑️ Reset Pipeline"):
+            if st.button("Reset Pipeline"):
                 if st.session_state.get("confirm_reset"):
                     st.session_state.pipeline = None
                     del st.session_state["confirm_reset"]
@@ -243,12 +243,12 @@ def render():
                     st.session_state["confirm_reset"] = True
                     st.warning("Click again to confirm reset")
     else:
-        st.info("Pipeline not initialized. Use the section above to initialize.")
+        st.info("Pipeline not initialised. Use the section above to initialise.")
     
     st.markdown("---")
     
     # Export/Import
-    st.subheader("📦 Export / Import")
+    st.subheader("Export / Import")
     
     col1, col2 = st.columns(2)
     
@@ -284,7 +284,7 @@ def render():
     
     # System info
     st.markdown("---")
-    st.subheader("💻 System Information")
+    st.subheader("System Information")
     
     try:
         from marcus_core.utils.device import get_device_info

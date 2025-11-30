@@ -2,7 +2,7 @@
 Photo Search Page
 =================
 
-Search for identities by uploading a photo.
+Search for identities by uploading a photograph.
 """
 
 import streamlit as st
@@ -13,14 +13,14 @@ from PIL import Image
 def render():
     """Render the photo search page."""
     
-    st.title("🔍 Photo Search")
+    st.title("Photo Search")
     st.markdown(
-        "Upload a photo to search for matching identities in the database."
+        "Upload a photograph to search for matching identities in the database."
     )
     
-    # Check if pipeline is initialized
+    # Check if pipeline is initialised
     if "pipeline" not in st.session_state or st.session_state.pipeline is None:
-        st.warning("⚠️ Pipeline not initialized. Please go to Settings first.")
+        st.warning("Pipeline not initialised. Please go to Settings first.")
         return
     
     pipeline = st.session_state.pipeline
@@ -55,7 +55,7 @@ def render():
     uploaded_file = st.file_uploader(
         "Upload an image",
         type=["jpg", "jpeg", "png", "bmp", "webp"],
-        help="Upload a photo containing one or more faces",
+        help="Upload a photograph containing one or more faces",
     )
     
     if uploaded_file is not None:
@@ -146,7 +146,7 @@ def render():
         "Upload multiple images",
         type=["jpg", "jpeg", "png"],
         accept_multiple_files=True,
-        help="Upload multiple photos for batch searching",
+        help="Upload multiple photographs for batch searching",
     )
     
     if batch_files:
@@ -170,7 +170,7 @@ def render():
                     )
                     
                     with results_container:
-                        with st.expander(f"📷 {file.name}"):
+                        with st.expander(f"{file.name}"):
                             col1, col2 = st.columns([1, 2])
                             
                             with col1:
@@ -197,9 +197,9 @@ def render():
     st.subheader("Tips for Better Results")
     
     st.markdown("""
-    - Use clear, well-lit photos
+    - Use clear, well-lit photographs
     - Ensure faces are visible and not obstructed
     - Higher resolution images may yield better results
-    - Front-facing photos work best
+    - Front-facing photographs work best
     - Avoid extreme angles or expressions
     """)

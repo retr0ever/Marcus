@@ -105,13 +105,13 @@ class ArcFaceExtractor(EmbeddingExtractor):
         else:
             providers = ['CPUExecutionProvider']
         
-        # Initialize FaceAnalysis (includes recognition model)
+        # Initialize FaceAnalysis (includes detection + recognition)
         self._model = FaceAnalysis(
             name=model_name,
             providers=providers,
-            allowed_modules=['recognition'],  # Only load recognition model
+            allowed_modules=['detection', 'recognition'],  # Need detection for face analysis
         )
-        self._model.prepare(ctx_id=0 if self.device == "cuda" else -1)
+        self._model.prepare(ctx_id=0 if self.device == "cuda" else -1, det_size=(640, 640))
         
         # Extract the recognition model
         if hasattr(self._model, 'models') and 'recognition' in self._model.models:

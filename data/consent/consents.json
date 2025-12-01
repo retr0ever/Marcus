@@ -1,0 +1,2012 @@
+{
+  "2386ac91-3343-4b98-b709-a98fddb6deae": {
+    "biometric_processing": {
+      "id": "1ccc8103-620d-4a24-a2a0-93820ae530d5",
+      "identity_id": "2386ac91-3343-4b98-b709-a98fddb6deae",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:57.027929",
+      "expires_at": "2026-12-01T12:19:57.027929",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "2f5bec20-2cc1-4bf7-821a-46de5c227f61": {
+    "biometric_processing": {
+      "id": "633827eb-eb18-4513-865a-321797ad99a8",
+      "identity_id": "2f5bec20-2cc1-4bf7-821a-46de5c227f61",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:57.118256",
+      "expires_at": "2026-12-01T12:19:57.118256",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "4024276d-55e1-414b-ba85-cd22150a1832": {
+    "biometric_processing": {
+      "id": "416e0e5e-163b-4354-8d75-0af7b8d3a4b2",
+      "identity_id": "4024276d-55e1-414b-ba85-cd22150a1832",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:57.228336",
+      "expires_at": "2026-12-01T12:19:57.228336",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "081620dc-a035-4b38-a954-5027c3f00f53": {
+    "biometric_processing": {
+      "id": "90aefa5a-6f19-4b0b-88b7-6234e0ba931d",
+      "identity_id": "081620dc-a035-4b38-a954-5027c3f00f53",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:57.320182",
+      "expires_at": "2026-12-01T12:19:57.320182",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "e333f2fc-d2d7-45fc-8957-8731a373746f": {
+    "biometric_processing": {
+      "id": "5d7f5a6a-8a7d-47f0-9822-84649096b8c7",
+      "identity_id": "e333f2fc-d2d7-45fc-8957-8731a373746f",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:57.406952",
+      "expires_at": "2026-12-01T12:19:57.406952",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "8b42cef5-eb75-4acd-9ddf-9e79fc5c9806": {
+    "biometric_processing": {
+      "id": "b1a5984b-6b77-4aaa-8675-87922b88aa7a",
+      "identity_id": "8b42cef5-eb75-4acd-9ddf-9e79fc5c9806",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:57.497215",
+      "expires_at": "2026-12-01T12:19:57.497215",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d998d12e-6f80-4056-8233-acca56b41a1e": {
+    "biometric_processing": {
+      "id": "b1407a0e-5380-4a2b-8256-4c48d0710b67",
+      "identity_id": "d998d12e-6f80-4056-8233-acca56b41a1e",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:57.586998",
+      "expires_at": "2026-12-01T12:19:57.586998",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "84b77153-84fb-442d-bfdc-889b0286514f": {
+    "biometric_processing": {
+      "id": "bd1d8dbc-cb2b-4bad-b244-cedf223539a3",
+      "identity_id": "84b77153-84fb-442d-bfdc-889b0286514f",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:57.690966",
+      "expires_at": "2026-12-01T12:19:57.690966",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "7e09542b-4937-475d-9d7c-dcf30237dd83": {
+    "biometric_processing": {
+      "id": "95ad1971-c89b-4e14-befe-4e235b98d174",
+      "identity_id": "7e09542b-4937-475d-9d7c-dcf30237dd83",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:57.783410",
+      "expires_at": "2026-12-01T12:19:57.783410",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "e4ac6001-f3e1-472e-bcee-e68fb7dbd671": {
+    "biometric_processing": {
+      "id": "9449754b-e694-428c-8299-4cd80812bef8",
+      "identity_id": "e4ac6001-f3e1-472e-bcee-e68fb7dbd671",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:57.875243",
+      "expires_at": "2026-12-01T12:19:57.875243",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "06737b98-9966-49ae-8975-911a87f5d58a": {
+    "biometric_processing": {
+      "id": "6f3f2a85-0056-456b-8a17-2b916be6d11f",
+      "identity_id": "06737b98-9966-49ae-8975-911a87f5d58a",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:57.967097",
+      "expires_at": "2026-12-01T12:19:57.967097",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "bb1d3795-66fc-4bdc-ab1b-da6c74e9474d": {
+    "biometric_processing": {
+      "id": "457b5976-6d51-48f4-ba51-85f7ab6a079b",
+      "identity_id": "bb1d3795-66fc-4bdc-ab1b-da6c74e9474d",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:58.065738",
+      "expires_at": "2026-12-01T12:19:58.065738",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "091627de-c9ad-4666-8879-0f61dc169775": {
+    "biometric_processing": {
+      "id": "29e83354-5817-471f-ad4b-65f955308ec1",
+      "identity_id": "091627de-c9ad-4666-8879-0f61dc169775",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:58.160126",
+      "expires_at": "2026-12-01T12:19:58.160126",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "7b80433f-d516-416f-9935-a02e3e28d579": {
+    "biometric_processing": {
+      "id": "3e41e9dc-4dda-4028-b303-86ecde0aeed5",
+      "identity_id": "7b80433f-d516-416f-9935-a02e3e28d579",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:58.254502",
+      "expires_at": "2026-12-01T12:19:58.254502",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "edf6c8fd-e78a-48e0-bdbc-06e49d61b333": {
+    "biometric_processing": {
+      "id": "9f6f9595-ca1c-4c5b-a0ae-5888a7f2c83d",
+      "identity_id": "edf6c8fd-e78a-48e0-bdbc-06e49d61b333",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:58.686234",
+      "expires_at": "2026-12-01T12:19:58.686234",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "6eed706d-1435-4648-89be-c552e97fb65f": {
+    "biometric_processing": {
+      "id": "81a5e59f-f87d-41a0-834c-13b0dc81bf9e",
+      "identity_id": "6eed706d-1435-4648-89be-c552e97fb65f",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:58.814180",
+      "expires_at": "2026-12-01T12:19:58.814180",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "2a0bf9e5-fe9b-4765-9d72-c403d51f43e5": {
+    "biometric_processing": {
+      "id": "27ad0cac-4fe7-4ad2-bbff-49c77aeddb52",
+      "identity_id": "2a0bf9e5-fe9b-4765-9d72-c403d51f43e5",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:58.910602",
+      "expires_at": "2026-12-01T12:19:58.910602",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d1349bb1-c6c5-43ad-a135-b62ae7e05cf5": {
+    "biometric_processing": {
+      "id": "ed43a570-b376-46b9-b0f6-6a6dc58736c5",
+      "identity_id": "d1349bb1-c6c5-43ad-a135-b62ae7e05cf5",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:59.007586",
+      "expires_at": "2026-12-01T12:19:59.007586",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d2f178e5-d910-4a3e-a124-47d88fc22dad": {
+    "biometric_processing": {
+      "id": "f992df8a-c3a3-4d1c-9ff0-3b00c996646c",
+      "identity_id": "d2f178e5-d910-4a3e-a124-47d88fc22dad",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:59.104071",
+      "expires_at": "2026-12-01T12:19:59.104071",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d91f24cc-a92f-4409-b42b-4eb001889cc6": {
+    "biometric_processing": {
+      "id": "f9970acf-2437-46e5-bd8d-d1b2996bd62e",
+      "identity_id": "d91f24cc-a92f-4409-b42b-4eb001889cc6",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:59.198888",
+      "expires_at": "2026-12-01T12:19:59.198888",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "46c182cc-5177-4574-a608-d3672df4ad6f": {
+    "biometric_processing": {
+      "id": "6439f820-a3e8-442a-b27c-4cc347e88152",
+      "identity_id": "46c182cc-5177-4574-a608-d3672df4ad6f",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:59.299197",
+      "expires_at": "2026-12-01T12:19:59.299197",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "dc72a0c5-92f2-4c32-bbee-ae3877b09b8f": {
+    "biometric_processing": {
+      "id": "5f0f5048-07d5-4c3d-b343-bfec9cf0baaa",
+      "identity_id": "dc72a0c5-92f2-4c32-bbee-ae3877b09b8f",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:59.463486",
+      "expires_at": "2026-12-01T12:19:59.463486",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "4f217fbb-3c92-4083-8f0f-cdda70b978d4": {
+    "biometric_processing": {
+      "id": "a7c07c21-413f-4a8b-aad4-94d04f4d66a8",
+      "identity_id": "4f217fbb-3c92-4083-8f0f-cdda70b978d4",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:59.560380",
+      "expires_at": "2026-12-01T12:19:59.560380",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d96eda22-171a-49fd-ab13-319539037deb": {
+    "biometric_processing": {
+      "id": "aa5bb8b2-3a4e-4964-b246-29982453c1f8",
+      "identity_id": "d96eda22-171a-49fd-ab13-319539037deb",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:59.656265",
+      "expires_at": "2026-12-01T12:19:59.656265",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "17ad8d36-0d2f-498f-88d8-65550797c226": {
+    "biometric_processing": {
+      "id": "445775a0-aca5-47ce-907c-eaacc3011461",
+      "identity_id": "17ad8d36-0d2f-498f-88d8-65550797c226",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:59.752518",
+      "expires_at": "2026-12-01T12:19:59.752518",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "45b32c99-7a31-4bca-bb58-701b4dccd79e": {
+    "biometric_processing": {
+      "id": "e77ad0bf-d8bb-4e25-9802-96f2cc577e96",
+      "identity_id": "45b32c99-7a31-4bca-bb58-701b4dccd79e",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:59.854648",
+      "expires_at": "2026-12-01T12:19:59.854648",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "0a1473ca-7fde-47c0-b0af-7ddb24f5fc2c": {
+    "biometric_processing": {
+      "id": "c9f5f0e1-4e08-416f-ac53-41bae3154fa4",
+      "identity_id": "0a1473ca-7fde-47c0-b0af-7ddb24f5fc2c",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:19:59.952914",
+      "expires_at": "2026-12-01T12:19:59.952914",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "8d299ac0-7f46-4eb7-a1cd-386064e8e8cc": {
+    "biometric_processing": {
+      "id": "e17f2b74-c186-4b8a-8384-5e55c349acd4",
+      "identity_id": "8d299ac0-7f46-4eb7-a1cd-386064e8e8cc",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:00.073752",
+      "expires_at": "2026-12-01T12:20:00.073752",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d8a25d3e-0691-4099-879e-35d3d82ba7b4": {
+    "biometric_processing": {
+      "id": "94678bdd-d5a9-4486-a61f-64e5db1a4d05",
+      "identity_id": "d8a25d3e-0691-4099-879e-35d3d82ba7b4",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:00.182466",
+      "expires_at": "2026-12-01T12:20:00.182466",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "0787a42b-e939-47d8-9ba5-0cab377cf46b": {
+    "biometric_processing": {
+      "id": "5aa27162-c8c1-476c-9f29-337f4bfe920b",
+      "identity_id": "0787a42b-e939-47d8-9ba5-0cab377cf46b",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:00.288152",
+      "expires_at": "2026-12-01T12:20:00.288152",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "e9d30d03-cae1-4b6b-82d8-264880370e27": {
+    "biometric_processing": {
+      "id": "384a247e-fed8-467e-9bfd-4455fc5f48ce",
+      "identity_id": "e9d30d03-cae1-4b6b-82d8-264880370e27",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:00.422275",
+      "expires_at": "2026-12-01T12:20:00.422275",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "357175df-aa69-4a33-966c-bd6010fa603b": {
+    "biometric_processing": {
+      "id": "58fc2f98-a1cc-48cd-848d-0c9320b9d0f3",
+      "identity_id": "357175df-aa69-4a33-966c-bd6010fa603b",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:00.536324",
+      "expires_at": "2026-12-01T12:20:00.536324",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d3eba9ca-6133-4ee4-a699-8cc6f4ea74ea": {
+    "biometric_processing": {
+      "id": "def3af68-50b6-443e-9ee3-0f55a296a6db",
+      "identity_id": "d3eba9ca-6133-4ee4-a699-8cc6f4ea74ea",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:00.642132",
+      "expires_at": "2026-12-01T12:20:00.642132",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "8ab59c82-4cd3-463f-82e2-526bd84f209e": {
+    "biometric_processing": {
+      "id": "32eaf94c-77cf-425d-a527-0228e6a485da",
+      "identity_id": "8ab59c82-4cd3-463f-82e2-526bd84f209e",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:00.744338",
+      "expires_at": "2026-12-01T12:20:00.744338",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "ea6e863e-1ec4-4e9c-a2ad-466beeddcf2a": {
+    "biometric_processing": {
+      "id": "d69eb7bf-a246-414d-8501-c2b277f9b2fd",
+      "identity_id": "ea6e863e-1ec4-4e9c-a2ad-466beeddcf2a",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:00.849125",
+      "expires_at": "2026-12-01T12:20:00.849125",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "4250fc08-2e0e-49b0-9597-1789ee98b477": {
+    "biometric_processing": {
+      "id": "e9f56735-ef33-49cd-8d3e-297b609f113a",
+      "identity_id": "4250fc08-2e0e-49b0-9597-1789ee98b477",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:00.959331",
+      "expires_at": "2026-12-01T12:20:00.959331",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "7574ef84-6f4b-4657-a113-04ff42d1662d": {
+    "biometric_processing": {
+      "id": "540a6593-19ea-4e7b-bda7-4d865c23243e",
+      "identity_id": "7574ef84-6f4b-4657-a113-04ff42d1662d",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:01.067216",
+      "expires_at": "2026-12-01T12:20:01.067216",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "7d2c1c67-6b43-4a85-835a-d3d36891d354": {
+    "biometric_processing": {
+      "id": "ae9c6900-30b5-4724-a007-1d635d156d46",
+      "identity_id": "7d2c1c67-6b43-4a85-835a-d3d36891d354",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:01.175274",
+      "expires_at": "2026-12-01T12:20:01.175274",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "0418ae73-8832-4773-98ad-8c34d1452b14": {
+    "biometric_processing": {
+      "id": "b800ba24-6ac3-41ea-97c0-d7de4c21f825",
+      "identity_id": "0418ae73-8832-4773-98ad-8c34d1452b14",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:01.462785",
+      "expires_at": "2026-12-01T12:20:01.462785",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "2da79850-0333-4c32-8c9d-04eeb958d5cb": {
+    "biometric_processing": {
+      "id": "6b6ba435-1695-4777-b497-e4b043d3c3b1",
+      "identity_id": "2da79850-0333-4c32-8c9d-04eeb958d5cb",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:20:01.569420",
+      "expires_at": "2026-12-01T12:20:01.569420",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "dd52decc-6336-4e7f-949d-d8dd316f6953": {
+    "biometric_processing": {
+      "id": "ffa3f622-8b61-4604-8609-292159496e5a",
+      "identity_id": "dd52decc-6336-4e7f-949d-d8dd316f6953",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:09.513160",
+      "expires_at": "2026-12-01T12:21:09.513160",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "ef813d92-3f14-4b2f-a0e1-84658283b305": {
+    "biometric_processing": {
+      "id": "427b9b3a-6dec-44e8-b9a2-e8436e103750",
+      "identity_id": "ef813d92-3f14-4b2f-a0e1-84658283b305",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:09.634374",
+      "expires_at": "2026-12-01T12:21:09.634374",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "870b2e7f-7ef4-4a4e-8f7e-c76653757d0b": {
+    "biometric_processing": {
+      "id": "556f3a11-4ca8-40d4-b2bc-0426747f4a5a",
+      "identity_id": "870b2e7f-7ef4-4a4e-8f7e-c76653757d0b",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:09.764241",
+      "expires_at": "2026-12-01T12:21:09.764241",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "75cebda9-9a4a-4541-b911-befc63820e5d": {
+    "biometric_processing": {
+      "id": "1111b0b6-ef6c-4a23-8314-1b8efddc5079",
+      "identity_id": "75cebda9-9a4a-4541-b911-befc63820e5d",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:09.870653",
+      "expires_at": "2026-12-01T12:21:09.870653",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "efac9c21-6266-41f2-8224-0e5e8b59147f": {
+    "biometric_processing": {
+      "id": "502b7ad9-9bdb-4b40-8b31-ddab848f7115",
+      "identity_id": "efac9c21-6266-41f2-8224-0e5e8b59147f",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:09.983530",
+      "expires_at": "2026-12-01T12:21:09.983530",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "62091fa0-aab2-400c-8dfb-a8677bd6a847": {
+    "biometric_processing": {
+      "id": "d3226f4a-38b2-48dd-98e9-37d40b6eabc9",
+      "identity_id": "62091fa0-aab2-400c-8dfb-a8677bd6a847",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:10.098886",
+      "expires_at": "2026-12-01T12:21:10.098886",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "b347c910-15c7-4015-86ca-67db61567b76": {
+    "biometric_processing": {
+      "id": "460dbed3-602a-4aee-a0f3-91b133ca85bb",
+      "identity_id": "b347c910-15c7-4015-86ca-67db61567b76",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:10.216358",
+      "expires_at": "2026-12-01T12:21:10.216358",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "2b68b599-da82-4711-87f5-bfcb76332afd": {
+    "biometric_processing": {
+      "id": "57268b9e-ecc2-4074-a641-1379be09ff0b",
+      "identity_id": "2b68b599-da82-4711-87f5-bfcb76332afd",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:10.329667",
+      "expires_at": "2026-12-01T12:21:10.329667",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "464dae93-87d6-4a3a-9419-83a4dbffb326": {
+    "biometric_processing": {
+      "id": "b3d0d1e2-b8e8-45ae-8526-0b87b14a3aac",
+      "identity_id": "464dae93-87d6-4a3a-9419-83a4dbffb326",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:10.441996",
+      "expires_at": "2026-12-01T12:21:10.441996",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d43cef43-0461-4063-bf90-aa8ff74b2857": {
+    "biometric_processing": {
+      "id": "22ed0dd1-cd19-4787-b1b0-122967708dfb",
+      "identity_id": "d43cef43-0461-4063-bf90-aa8ff74b2857",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:10.552282",
+      "expires_at": "2026-12-01T12:21:10.552282",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "706692bd-ffee-46b6-98a9-81b10d968bc1": {
+    "biometric_processing": {
+      "id": "ade996b9-08ac-4309-9f51-fa637af7ea55",
+      "identity_id": "706692bd-ffee-46b6-98a9-81b10d968bc1",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:10.665739",
+      "expires_at": "2026-12-01T12:21:10.665739",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "444ab79a-087e-4fed-a5bb-d3eff5b2a5c5": {
+    "biometric_processing": {
+      "id": "bea85138-d40d-4fd1-9821-d7e79be0e236",
+      "identity_id": "444ab79a-087e-4fed-a5bb-d3eff5b2a5c5",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:10.779363",
+      "expires_at": "2026-12-01T12:21:10.779363",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "b3f3d014-eb20-4bb9-9963-67ed03beab8c": {
+    "biometric_processing": {
+      "id": "af9e0d7b-a461-4692-bd3b-fbd63e801cf8",
+      "identity_id": "b3f3d014-eb20-4bb9-9963-67ed03beab8c",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:10.896380",
+      "expires_at": "2026-12-01T12:21:10.896380",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "88ed5110-0586-4d0c-a7f8-42b6910265a6": {
+    "biometric_processing": {
+      "id": "96621179-70f1-43a9-88a8-33aee80f8522",
+      "identity_id": "88ed5110-0586-4d0c-a7f8-42b6910265a6",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:11.008860",
+      "expires_at": "2026-12-01T12:21:11.008860",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "c823a199-63dc-4418-8831-897bae9a775c": {
+    "biometric_processing": {
+      "id": "bc23ec50-b1df-41f3-ae4e-938b41309e32",
+      "identity_id": "c823a199-63dc-4418-8831-897bae9a775c",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:11.231698",
+      "expires_at": "2026-12-01T12:21:11.231698",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "aad6fc63-77f2-4611-97ef-f8a1f345d8f4": {
+    "biometric_processing": {
+      "id": "74f1646e-2758-45c2-8798-6fd63dcfe52a",
+      "identity_id": "aad6fc63-77f2-4611-97ef-f8a1f345d8f4",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:11.364676",
+      "expires_at": "2026-12-01T12:21:11.364676",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "e2f69f97-a850-4269-941a-5f24e0574fba": {
+    "biometric_processing": {
+      "id": "6ea8c9a8-889c-4a97-887e-9ce7addad245",
+      "identity_id": "e2f69f97-a850-4269-941a-5f24e0574fba",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:11.477643",
+      "expires_at": "2026-12-01T12:21:11.477643",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "1506b6f8-08b0-471e-a5fc-bbfdb3d94f7a": {
+    "biometric_processing": {
+      "id": "0afb81c8-b42f-4dfc-804e-7cc1846478eb",
+      "identity_id": "1506b6f8-08b0-471e-a5fc-bbfdb3d94f7a",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:11.593159",
+      "expires_at": "2026-12-01T12:21:11.593159",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "629a9cb8-2613-47b5-a76c-988dc89b6f40": {
+    "biometric_processing": {
+      "id": "a3109603-3f08-4e27-b897-9031b40f6a1a",
+      "identity_id": "629a9cb8-2613-47b5-a76c-988dc89b6f40",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:11.710905",
+      "expires_at": "2026-12-01T12:21:11.710905",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d9f053ce-264b-4124-9491-68ff35f74390": {
+    "biometric_processing": {
+      "id": "3171a886-c2c5-40d3-a53e-5606864db0d5",
+      "identity_id": "d9f053ce-264b-4124-9491-68ff35f74390",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:11.825579",
+      "expires_at": "2026-12-01T12:21:11.825579",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "3fce566e-9105-43b1-9814-f3036c2419fb": {
+    "biometric_processing": {
+      "id": "ed91f8e0-21f1-4922-b69d-b23d2718d9f6",
+      "identity_id": "3fce566e-9105-43b1-9814-f3036c2419fb",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:11.960145",
+      "expires_at": "2026-12-01T12:21:11.960145",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "44ae62e1-320d-48ed-853b-4119e40aef1d": {
+    "biometric_processing": {
+      "id": "640f215c-c6c1-4268-a42e-86329453cfc9",
+      "identity_id": "44ae62e1-320d-48ed-853b-4119e40aef1d",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:12.083477",
+      "expires_at": "2026-12-01T12:21:12.083477",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "cc588f37-49da-441d-9945-7120b8b86861": {
+    "biometric_processing": {
+      "id": "9c9162b8-7a35-4839-bf0a-c8724a3d81fa",
+      "identity_id": "cc588f37-49da-441d-9945-7120b8b86861",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:12.296661",
+      "expires_at": "2026-12-01T12:21:12.296661",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "5f166dec-b9be-40ee-8097-b8b7d286a29c": {
+    "biometric_processing": {
+      "id": "957f4e30-af39-4281-b485-fe0b69a2aae8",
+      "identity_id": "5f166dec-b9be-40ee-8097-b8b7d286a29c",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:12.409467",
+      "expires_at": "2026-12-01T12:21:12.409467",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "4b68a577-933d-4eaa-81ef-ce7bf5869966": {
+    "biometric_processing": {
+      "id": "1317d980-102a-449b-a50c-4faf5503599b",
+      "identity_id": "4b68a577-933d-4eaa-81ef-ce7bf5869966",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:12.529622",
+      "expires_at": "2026-12-01T12:21:12.529622",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "4ed2aa70-da28-4db6-b3f7-3b915054c5e0": {
+    "biometric_processing": {
+      "id": "a71ab082-5f77-4ea3-b022-364feb8151c0",
+      "identity_id": "4ed2aa70-da28-4db6-b3f7-3b915054c5e0",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:12.646292",
+      "expires_at": "2026-12-01T12:21:12.646292",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "3a844a1b-e516-43bf-a288-a01f624d932e": {
+    "biometric_processing": {
+      "id": "6980940d-5afd-4919-b447-21c019bf7bb7",
+      "identity_id": "3a844a1b-e516-43bf-a288-a01f624d932e",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:12.759501",
+      "expires_at": "2026-12-01T12:21:12.759501",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "f77fa931-0bfe-4fd6-b063-831bd895a92f": {
+    "biometric_processing": {
+      "id": "d49656cf-f905-473d-a9d4-51e8673b2d2f",
+      "identity_id": "f77fa931-0bfe-4fd6-b063-831bd895a92f",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:12.878160",
+      "expires_at": "2026-12-01T12:21:12.878160",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "87778502-efa0-449c-ae6d-d3d1b671af05": {
+    "biometric_processing": {
+      "id": "0115e09c-aa64-4322-9d6f-bca17437f2cf",
+      "identity_id": "87778502-efa0-449c-ae6d-d3d1b671af05",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:12.994986",
+      "expires_at": "2026-12-01T12:21:12.994986",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "c2a9676b-eaca-4e24-b706-ab7a45b1f987": {
+    "biometric_processing": {
+      "id": "309bf9ed-e67b-4570-bb7a-c8028da69327",
+      "identity_id": "c2a9676b-eaca-4e24-b706-ab7a45b1f987",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:13.110764",
+      "expires_at": "2026-12-01T12:21:13.110764",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "36fc3c73-9cf6-413c-83fe-b256dfafc310": {
+    "biometric_processing": {
+      "id": "93ce9ab3-4238-4e94-bbd4-5e0c4af2b0a2",
+      "identity_id": "36fc3c73-9cf6-413c-83fe-b256dfafc310",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:13.231837",
+      "expires_at": "2026-12-01T12:21:13.231837",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "651d8072-16f1-45b2-90ee-11e72b998623": {
+    "biometric_processing": {
+      "id": "042992e8-8a52-4ae8-accf-da478a3f4b0f",
+      "identity_id": "651d8072-16f1-45b2-90ee-11e72b998623",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:13.350194",
+      "expires_at": "2026-12-01T12:21:13.350194",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d7a1b093-35df-45e2-a6a8-de2da1a6f4c8": {
+    "biometric_processing": {
+      "id": "b8661967-5df3-4a61-b072-c7650693eebd",
+      "identity_id": "d7a1b093-35df-45e2-a6a8-de2da1a6f4c8",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:13.471219",
+      "expires_at": "2026-12-01T12:21:13.471219",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "a84b609d-c0c9-4eed-8016-e885a4839edb": {
+    "biometric_processing": {
+      "id": "8816ea7f-27dd-4183-a2de-24b65e36dd4c",
+      "identity_id": "a84b609d-c0c9-4eed-8016-e885a4839edb",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:13.591283",
+      "expires_at": "2026-12-01T12:21:13.591283",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "661907b2-cf88-472b-8abd-02b55f81368d": {
+    "biometric_processing": {
+      "id": "797e68b0-d2c1-49ad-931e-9d7897921a38",
+      "identity_id": "661907b2-cf88-472b-8abd-02b55f81368d",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:13.711147",
+      "expires_at": "2026-12-01T12:21:13.711147",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "1a5bf26a-9b32-4675-930d-f8a013fcca68": {
+    "biometric_processing": {
+      "id": "1cc237b6-cb78-46ff-988c-63f3c8789358",
+      "identity_id": "1a5bf26a-9b32-4675-930d-f8a013fcca68",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:13.831341",
+      "expires_at": "2026-12-01T12:21:13.831341",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "fd23ed8b-0b24-4321-b31a-31d25f56b6a2": {
+    "biometric_processing": {
+      "id": "6081585e-4573-4511-87ac-d8dd43dad1ab",
+      "identity_id": "fd23ed8b-0b24-4321-b31a-31d25f56b6a2",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:13.972466",
+      "expires_at": "2026-12-01T12:21:13.972466",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "2d98adc3-8c45-4746-8d37-a09c566404cb": {
+    "biometric_processing": {
+      "id": "5a82ccbf-f010-4542-a60c-deae1567211b",
+      "identity_id": "2d98adc3-8c45-4746-8d37-a09c566404cb",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:14.100432",
+      "expires_at": "2026-12-01T12:21:14.100432",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "cdfe83b0-784f-43a7-acb4-dcb4f6aec98e": {
+    "biometric_processing": {
+      "id": "65bcb9b1-acaa-4384-b75b-4f545457cde4",
+      "identity_id": "cdfe83b0-784f-43a7-acb4-dcb4f6aec98e",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:14.412226",
+      "expires_at": "2026-12-01T12:21:14.412226",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "96a27b2a-ea20-4209-8da0-7be89d15a554": {
+    "biometric_processing": {
+      "id": "ec23166f-8145-4654-8e94-0ed25fdb7440",
+      "identity_id": "96a27b2a-ea20-4209-8da0-7be89d15a554",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:21:14.667408",
+      "expires_at": "2026-12-01T12:21:14.667408",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "f419faa0-dde2-49b0-ac36-d7808efe1220": {
+    "biometric_processing": {
+      "id": "8178fb95-a0e2-4033-ad43-83df35b4906f",
+      "identity_id": "f419faa0-dde2-49b0-ac36-d7808efe1220",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:08.370881",
+      "expires_at": "2026-12-01T12:22:08.370881",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "b8737fb1-ab56-40dd-bf82-8a4cdd08f447": {
+    "biometric_processing": {
+      "id": "4e0f7ea6-40a0-46bc-9d07-71803f3f81e7",
+      "identity_id": "b8737fb1-ab56-40dd-bf82-8a4cdd08f447",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:08.517919",
+      "expires_at": "2026-12-01T12:22:08.517919",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "cdbce1bf-cb05-4a3c-bb1a-75aa207101e8": {
+    "biometric_processing": {
+      "id": "e1d2d879-69cd-48d2-b676-45c9da1e5e3d",
+      "identity_id": "cdbce1bf-cb05-4a3c-bb1a-75aa207101e8",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:08.679898",
+      "expires_at": "2026-12-01T12:22:08.679898",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "c8eb3dd3-8b3c-4775-8418-190bb3181743": {
+    "biometric_processing": {
+      "id": "8b55befd-5991-40e3-81a0-8c27793e49fc",
+      "identity_id": "c8eb3dd3-8b3c-4775-8418-190bb3181743",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:08.819801",
+      "expires_at": "2026-12-01T12:22:08.819801",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "107b9695-04b0-4f2f-ab48-5fb318c75968": {
+    "biometric_processing": {
+      "id": "099491a6-7485-40a5-acc1-13acd99bcf87",
+      "identity_id": "107b9695-04b0-4f2f-ab48-5fb318c75968",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:08.959381",
+      "expires_at": "2026-12-01T12:22:08.959381",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "25983af2-46f6-4372-b67b-f0105e6d6b86": {
+    "biometric_processing": {
+      "id": "472a72a2-df9e-49f8-af54-b695a885baa4",
+      "identity_id": "25983af2-46f6-4372-b67b-f0105e6d6b86",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:09.104268",
+      "expires_at": "2026-12-01T12:22:09.104268",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "108e6b53-4d01-4870-a1c2-42645c0135a6": {
+    "biometric_processing": {
+      "id": "d0f02e44-ce0c-471f-9405-ca9ed9ab4713",
+      "identity_id": "108e6b53-4d01-4870-a1c2-42645c0135a6",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:09.249717",
+      "expires_at": "2026-12-01T12:22:09.249717",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "4aee583d-2ae3-4290-b7f6-3d8b7a10f791": {
+    "biometric_processing": {
+      "id": "86edfa12-00a1-491a-bff0-51777a9c1b4a",
+      "identity_id": "4aee583d-2ae3-4290-b7f6-3d8b7a10f791",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:09.392950",
+      "expires_at": "2026-12-01T12:22:09.392950",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "f9769aca-e71b-49be-b111-387c6e2c9a81": {
+    "biometric_processing": {
+      "id": "4e1550e2-2e29-417c-99f1-b921ae5a0f13",
+      "identity_id": "f9769aca-e71b-49be-b111-387c6e2c9a81",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:09.594851",
+      "expires_at": "2026-12-01T12:22:09.594851",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "0898e15f-baee-4ef6-9b07-9c9ccf0f3d5f": {
+    "biometric_processing": {
+      "id": "f57c7c8d-1d97-4663-bb97-e08f5db66dc3",
+      "identity_id": "0898e15f-baee-4ef6-9b07-9c9ccf0f3d5f",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:09.739198",
+      "expires_at": "2026-12-01T12:22:09.739198",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "6688ec5c-a703-47b8-9b4e-deec2378fcd0": {
+    "biometric_processing": {
+      "id": "6f77e8b8-24bd-4e24-9248-50dded98fcc5",
+      "identity_id": "6688ec5c-a703-47b8-9b4e-deec2378fcd0",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:09.883093",
+      "expires_at": "2026-12-01T12:22:09.883093",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "c4f5b694-1c59-4e1b-b48a-c5c8c5ff38ea": {
+    "biometric_processing": {
+      "id": "e9146e08-9d96-467e-bb68-c7f8cb88d3d8",
+      "identity_id": "c4f5b694-1c59-4e1b-b48a-c5c8c5ff38ea",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:10.019152",
+      "expires_at": "2026-12-01T12:22:10.019152",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "14571538-a831-4b7c-828f-360aee0017b8": {
+    "biometric_processing": {
+      "id": "e9022cae-4b68-466f-bde0-7355015fe2e1",
+      "identity_id": "14571538-a831-4b7c-828f-360aee0017b8",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:10.160688",
+      "expires_at": "2026-12-01T12:22:10.160688",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d6904052-5614-41f3-a045-c997ca12bb24": {
+    "biometric_processing": {
+      "id": "fbb240de-a9c2-4449-a8bb-45445adb968f",
+      "identity_id": "d6904052-5614-41f3-a045-c997ca12bb24",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:10.306020",
+      "expires_at": "2026-12-01T12:22:10.306020",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "6cdf8180-1918-4c1f-b394-d22fb5ab0bdb": {
+    "biometric_processing": {
+      "id": "7731cc3f-6391-40d6-a397-73f3a185aa11",
+      "identity_id": "6cdf8180-1918-4c1f-b394-d22fb5ab0bdb",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:10.567557",
+      "expires_at": "2026-12-01T12:22:10.567557",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "2b424cc4-5fad-4c4e-92e1-5d411e64d046": {
+    "biometric_processing": {
+      "id": "5917e604-2f52-4158-8164-66e3608b131b",
+      "identity_id": "2b424cc4-5fad-4c4e-92e1-5d411e64d046",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:10.730488",
+      "expires_at": "2026-12-01T12:22:10.730488",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "8cc95dcd-9d16-4337-9b02-165473d06e11": {
+    "biometric_processing": {
+      "id": "0d46f07f-ff1b-403a-af2b-f8d78dd5b4a7",
+      "identity_id": "8cc95dcd-9d16-4337-9b02-165473d06e11",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:10.893550",
+      "expires_at": "2026-12-01T12:22:10.893550",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "28b9a877-2cdd-4b39-a402-694d9db3f1eb": {
+    "biometric_processing": {
+      "id": "ff5b6364-cbae-493a-9358-328afdf6c21a",
+      "identity_id": "28b9a877-2cdd-4b39-a402-694d9db3f1eb",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:11.035087",
+      "expires_at": "2026-12-01T12:22:11.035087",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "73a79c3d-04f2-409a-9af6-4d946547b5b8": {
+    "biometric_processing": {
+      "id": "ff7e764d-0a90-4faa-afd6-57240b0a5472",
+      "identity_id": "73a79c3d-04f2-409a-9af6-4d946547b5b8",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:11.172392",
+      "expires_at": "2026-12-01T12:22:11.172392",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d3909272-400a-4c2a-988e-038f836da551": {
+    "biometric_processing": {
+      "id": "4b70972b-190a-47e5-9200-3d84af27f4cd",
+      "identity_id": "d3909272-400a-4c2a-988e-038f836da551",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:11.307705",
+      "expires_at": "2026-12-01T12:22:11.307705",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "b2c18d9b-dd2d-4ef5-bd36-fb8f149a33d2": {
+    "biometric_processing": {
+      "id": "a529fb2c-ca85-4925-99a6-59a2320dfbf4",
+      "identity_id": "b2c18d9b-dd2d-4ef5-bd36-fb8f149a33d2",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:11.453594",
+      "expires_at": "2026-12-01T12:22:11.453594",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "fe758ced-a81e-4ac4-916c-de8c9aa7edab": {
+    "biometric_processing": {
+      "id": "4c0e8cd9-cb95-4296-8c8b-09ccddc7e29f",
+      "identity_id": "fe758ced-a81e-4ac4-916c-de8c9aa7edab",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:11.599359",
+      "expires_at": "2026-12-01T12:22:11.599359",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "9a4038f2-0f18-4f46-917c-7b2f61a1402a": {
+    "biometric_processing": {
+      "id": "301d2c31-f8bc-450b-8ad1-a63aecc5bd3d",
+      "identity_id": "9a4038f2-0f18-4f46-917c-7b2f61a1402a",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:11.751867",
+      "expires_at": "2026-12-01T12:22:11.751867",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "c6cda5e2-e3ac-4380-8109-6767309fa721": {
+    "biometric_processing": {
+      "id": "58c42ebe-53fc-41f5-8493-65b92ed0adff",
+      "identity_id": "c6cda5e2-e3ac-4380-8109-6767309fa721",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:11.902418",
+      "expires_at": "2026-12-01T12:22:11.902418",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "e30a2a4d-acc3-4ce2-8f21-6fec0e3e86ca": {
+    "biometric_processing": {
+      "id": "0cf5d1ca-495b-4544-9975-d03518311283",
+      "identity_id": "e30a2a4d-acc3-4ce2-8f21-6fec0e3e86ca",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:12.046512",
+      "expires_at": "2026-12-01T12:22:12.046512",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "5596bafb-03b2-46ae-a3a6-c88ae339ea71": {
+    "biometric_processing": {
+      "id": "c3306b3c-3c88-4ad6-a947-d0cd419668ad",
+      "identity_id": "5596bafb-03b2-46ae-a3a6-c88ae339ea71",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:12.188272",
+      "expires_at": "2026-12-01T12:22:12.188272",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "f37aeca2-ce08-4609-89bb-ed73020a38e2": {
+    "biometric_processing": {
+      "id": "12b56eac-6d31-45d8-a90f-4b757652df0e",
+      "identity_id": "f37aeca2-ce08-4609-89bb-ed73020a38e2",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:12.508369",
+      "expires_at": "2026-12-01T12:22:12.508369",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "80b42e68-3595-48fa-a6a0-db883491a137": {
+    "biometric_processing": {
+      "id": "b444984f-9736-45fb-96ee-0f292e3ea813",
+      "identity_id": "80b42e68-3595-48fa-a6a0-db883491a137",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:12.647250",
+      "expires_at": "2026-12-01T12:22:12.647250",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "7c021040-24ba-4193-9a7b-e103e449a6cb": {
+    "biometric_processing": {
+      "id": "112d94e9-f2c5-432f-8534-22f43a352820",
+      "identity_id": "7c021040-24ba-4193-9a7b-e103e449a6cb",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:12.786487",
+      "expires_at": "2026-12-01T12:22:12.786487",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "222a04ef-caf8-48dc-b506-4ccecdf0bd8e": {
+    "biometric_processing": {
+      "id": "adca256b-db02-4f1a-8294-c956a09a6e14",
+      "identity_id": "222a04ef-caf8-48dc-b506-4ccecdf0bd8e",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:12.939713",
+      "expires_at": "2026-12-01T12:22:12.939713",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "26c7986b-6c5f-4e89-a693-2b0e00c04c76": {
+    "biometric_processing": {
+      "id": "8445c595-0460-4150-b8eb-bfd50ccd3294",
+      "identity_id": "26c7986b-6c5f-4e89-a693-2b0e00c04c76",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:13.125681",
+      "expires_at": "2026-12-01T12:22:13.125681",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "2649e069-d85b-41bf-9bea-2c3bb681273a": {
+    "biometric_processing": {
+      "id": "fc6a9094-7fc9-4dc8-bef2-af44b1715a4a",
+      "identity_id": "2649e069-d85b-41bf-9bea-2c3bb681273a",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:13.281421",
+      "expires_at": "2026-12-01T12:22:13.281421",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "ec37ee6a-c692-46e9-abcc-7ffb3d7c57e3": {
+    "biometric_processing": {
+      "id": "0b0ee714-2370-4a2b-ba05-87a2c18417ed",
+      "identity_id": "ec37ee6a-c692-46e9-abcc-7ffb3d7c57e3",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:13.439190",
+      "expires_at": "2026-12-01T12:22:13.439190",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "55042520-b440-47f2-89e0-924ff424cb82": {
+    "biometric_processing": {
+      "id": "01236603-5ad8-487c-9372-046d3591fa1e",
+      "identity_id": "55042520-b440-47f2-89e0-924ff424cb82",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:13.586616",
+      "expires_at": "2026-12-01T12:22:13.586616",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "02eea355-db3e-41f9-8b04-c417e57cddee": {
+    "biometric_processing": {
+      "id": "c9ce7409-c7db-4ea3-9e2f-85f3df6142d2",
+      "identity_id": "02eea355-db3e-41f9-8b04-c417e57cddee",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:13.735287",
+      "expires_at": "2026-12-01T12:22:13.735287",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "35f0d984-d76a-4e61-8cd0-000460a9e34a": {
+    "biometric_processing": {
+      "id": "ed302e66-e97a-4881-8ec0-c8ed0d9f274f",
+      "identity_id": "35f0d984-d76a-4e61-8cd0-000460a9e34a",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:13.883314",
+      "expires_at": "2026-12-01T12:22:13.883314",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "5dd2de2d-846a-4bbe-929b-4d57ee63630a": {
+    "biometric_processing": {
+      "id": "54334abd-b705-490e-baff-3d6d8cdbbcdd",
+      "identity_id": "5dd2de2d-846a-4bbe-929b-4d57ee63630a",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:14.055654",
+      "expires_at": "2026-12-01T12:22:14.055654",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "7a3f7145-6039-4a13-9e48-00b8aff4dcfa": {
+    "biometric_processing": {
+      "id": "6f15ab66-8f25-4c63-a129-71f754d5c3ef",
+      "identity_id": "7a3f7145-6039-4a13-9e48-00b8aff4dcfa",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:14.199177",
+      "expires_at": "2026-12-01T12:22:14.199177",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "f2696d18-c172-41cd-aaf6-ef5e24c8a6de": {
+    "biometric_processing": {
+      "id": "ce6651e0-4e2d-4bc6-b33f-f0e8eb657368",
+      "identity_id": "f2696d18-c172-41cd-aaf6-ef5e24c8a6de",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:14.529847",
+      "expires_at": "2026-12-01T12:22:14.529847",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "30c83c44-d2f9-4480-b384-45fd1f92aae9": {
+    "biometric_processing": {
+      "id": "eeacd08e-94d5-4099-a362-01613d095c04",
+      "identity_id": "30c83c44-d2f9-4480-b384-45fd1f92aae9",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:22:14.695105",
+      "expires_at": "2026-12-01T12:22:14.695105",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "63f4293c-3394-4c88-864f-e07247b4feb2": {
+    "biometric_processing": {
+      "id": "f33465df-f64f-42bf-950d-2822ce8de081",
+      "identity_id": "63f4293c-3394-4c88-864f-e07247b4feb2",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:35:11.554698",
+      "expires_at": "2026-12-01T12:35:11.554698",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "72fb8a5a-5cca-476a-9935-c5d00a4b30d6": {
+    "biometric_processing": {
+      "id": "a447f153-1fda-49e5-ac47-3652651f8fe6",
+      "identity_id": "72fb8a5a-5cca-476a-9935-c5d00a4b30d6",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:35:11.739336",
+      "expires_at": "2026-12-01T12:35:11.739336",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "1e13df31-bf2a-4a96-824e-8e078f692a78": {
+    "biometric_processing": {
+      "id": "54ac3b6f-5ad0-4a0c-9efb-88e78beb7d4d",
+      "identity_id": "1e13df31-bf2a-4a96-824e-8e078f692a78",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:37:36.834459",
+      "expires_at": "2026-12-01T12:37:36.834459",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "b72a65bf-60eb-4852-bfd7-d3fbb3384f43": {
+    "biometric_processing": {
+      "id": "6dd90103-ebd4-48a3-8a90-bb91f4b81e9e",
+      "identity_id": "b72a65bf-60eb-4852-bfd7-d3fbb3384f43",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:37:37.021831",
+      "expires_at": "2026-12-01T12:37:37.021831",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "dc4b9f3a-33b1-4fe3-a596-e4e4a9c74430": {
+    "biometric_processing": {
+      "id": "1601ed18-9490-4916-a233-485d96605822",
+      "identity_id": "dc4b9f3a-33b1-4fe3-a596-e4e4a9c74430",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:38:47.597031",
+      "expires_at": "2026-12-01T12:38:47.597031",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "287a4dc9-0694-4266-a300-1e6e92aefc57": {
+    "biometric_processing": {
+      "id": "ff713c87-7b8c-41d7-ae8e-b137e20aab1a",
+      "identity_id": "287a4dc9-0694-4266-a300-1e6e92aefc57",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:38:47.872942",
+      "expires_at": "2026-12-01T12:38:47.872942",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "171f7a36-be5f-4639-9eab-e53108d4409f": {
+    "biometric_processing": {
+      "id": "b2c24675-96a9-472a-be1f-78e10b2e7e2c",
+      "identity_id": "171f7a36-be5f-4639-9eab-e53108d4409f",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:39:57.040745",
+      "expires_at": "2026-12-01T12:39:57.040745",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "e715602a-4687-4436-b782-1cd5aeff75db": {
+    "biometric_processing": {
+      "id": "44ad9201-77ad-4392-b966-7314af42b3c7",
+      "identity_id": "e715602a-4687-4436-b782-1cd5aeff75db",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:39:57.237627",
+      "expires_at": "2026-12-01T12:39:57.237627",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "f7e95564-5377-49ff-8703-7ad20860c656": {
+    "biometric_processing": {
+      "id": "50a8b677-22a0-4589-918b-cf4b10263d43",
+      "identity_id": "f7e95564-5377-49ff-8703-7ad20860c656",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:40:48.608676",
+      "expires_at": "2026-12-01T12:40:48.608676",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "d884bdac-1aec-4421-9e74-90fd1c2c078e": {
+    "biometric_processing": {
+      "id": "76f3b956-3e9c-4682-ab57-beffcec4f832",
+      "identity_id": "d884bdac-1aec-4421-9e74-90fd1c2c078e",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:40:48.830522",
+      "expires_at": "2026-12-01T12:40:48.830522",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "b00d1b04-38fb-4e43-aaa0-8ecf597ea26f": {
+    "biometric_processing": {
+      "id": "9fdaf5e2-d8db-45ef-9f3e-928a4a0fb42a",
+      "identity_id": "b00d1b04-38fb-4e43-aaa0-8ecf597ea26f",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:41:10.160156",
+      "expires_at": "2026-12-01T12:41:10.160156",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "6fd2f531-b923-4c36-89c6-c8ae978b7114": {
+    "biometric_processing": {
+      "id": "c3cdef33-4285-4e28-8453-0a35f114dd22",
+      "identity_id": "6fd2f531-b923-4c36-89c6-c8ae978b7114",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:41:10.352039",
+      "expires_at": "2026-12-01T12:41:10.352039",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "bdb64f7a-fa9b-4a36-8fa1-2df8b65949a6": {
+    "biometric_processing": {
+      "id": "9ef707b6-0247-4b41-a6c2-a6090cd65804",
+      "identity_id": "bdb64f7a-fa9b-4a36-8fa1-2df8b65949a6",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:41:55.729228",
+      "expires_at": "2026-12-01T12:41:55.729228",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  },
+  "16a6e643-66e3-4d69-a288-7f1e851d6289": {
+    "biometric_processing": {
+      "id": "b02d1284-ba2b-492b-ae6d-0ee6874e8e47",
+      "identity_id": "16a6e643-66e3-4d69-a288-7f1e851d6289",
+      "purpose": "biometric_processing",
+      "status": "granted",
+      "granted_at": "2025-12-01T12:41:55.917944",
+      "expires_at": "2026-12-01T12:41:55.917944",
+      "revoked_at": null,
+      "granted_by": "system",
+      "source": "lfw",
+      "proof": null,
+      "metadata": {}
+    }
+  }
+}

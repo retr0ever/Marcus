@@ -450,6 +450,10 @@ class FAISSStore(VectorStore):
             embeddings = data["embeddings"]
             ids = data["ids"]
             self._embeddings = {id: emb for id, emb in zip(ids, embeddings)}
+        
+        # If we have embeddings but no index, rebuild it
+        if self._embeddings and self._index.ntotal == 0:
+            self.rebuild_index()
     
     def clear(self) -> None:
         """Clear all entries."""
@@ -469,6 +473,7 @@ class FAISSStore(VectorStore):
         if not self._embeddings:
             return
         
+        # Re-initialise creates fresh index and sets _is_trained for Flat
         self._init_index()
         
         # Re-add all embeddings
@@ -476,8 +481,12 @@ class FAISSStore(VectorStore):
         embeddings = np.array([self._embeddings[id] for id in ids])
         embeddings = self._normalize_for_cosine(embeddings.astype(np.float32))
         
-        # Train and add
-        self._train_if_needed(embeddings)
+        # For Flat index, _is_trained is already True from _init_index
+        # For IVF/PQ, we need to train
+        if not self._is_trained:
+            self._train_if_needed(embeddings)
+        
+        # Add embeddings to index
         if self._is_trained:
             self._index.add(embeddings)
         

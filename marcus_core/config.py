@@ -182,8 +182,8 @@ class VectorDBConfig(BaseModel):
         description="Vector database type (faiss, hnswlib)"
     )
     index_type: str = Field(
-        default="IVF_Flat",
-        description="Index type for FAISS"
+        default="Flat",
+        description="Index type for FAISS (Flat, IVF_Flat, IVF_PQ, HNSW)"
     )
     metric: str = Field(
         default="cosine",
@@ -228,7 +228,7 @@ class MatchingConfig(BaseModel):
     """Identity matching configuration."""
     
     similarity_threshold: float = Field(
-        default=0.6,
+        default=0.4,
         ge=0.0, le=1.0,
         description="Minimum similarity for a match"
     )

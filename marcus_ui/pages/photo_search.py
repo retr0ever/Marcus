@@ -8,6 +8,24 @@ Search for identities by uploading a photograph.
 import streamlit as st
 import numpy as np
 from PIL import Image
+import sys
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+
+def get_pipeline():
+    """Get or create the pipeline."""
+    if "pipeline" not in st.session_state or st.session_state.pipeline is None:
+        from marcus_core.pipeline import FacialPipeline
+        from marcus_core.config import SystemConfig
+        
+        with st.spinner("Initialising pipeline..."):
+            config = SystemConfig()
+            st.session_state.pipeline = FacialPipeline(config)
+    
+    return st.session_state.pipeline
 
 
 def render():
@@ -18,12 +36,12 @@ def render():
         "Upload a photograph to search for matching identities in the database."
     )
     
-    # Check if pipeline is initialised
-    if "pipeline" not in st.session_state or st.session_state.pipeline is None:
-        st.warning("Pipeline not initialised. Please go to Settings first.")
+    # Auto-initialise pipeline
+    try:
+        pipeline = get_pipeline()
+    except Exception as e:
+        st.error(f"Failed to initialise pipeline: {e}")
         return
-    
-    pipeline = st.session_state.pipeline
     
     st.markdown("---")
     
@@ -203,3 +221,7 @@ def render():
     - Front-facing photographs work best
     - Avoid extreme angles or expressions
     """)
+
+
+# Run when page is loaded directly by Streamlit
+render()

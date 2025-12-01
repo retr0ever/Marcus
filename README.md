@@ -4,7 +4,7 @@
 
 Marcus is a modular face recognition library designed for research and development purposes. It combines state-of-the-art face detection (YOLOv8-Face) with robust embedding extraction (ArcFace) and efficient vector search (FAISS) to enable face identification against known identities.
 
-## ⚠️ Ethical Use Notice
+## Ethical Use Notice
 
 This software is intended for legitimate research and development purposes only. Users must:
 - Comply with all applicable laws including UK GDPR
@@ -12,7 +12,7 @@ This software is intended for legitimate research and development purposes only.
 - Respect individuals' privacy rights
 - Not use for surveillance without lawful authority
 
-## ✨ Features
+## Features
 
 - **Face Detection**: YOLOv8-Face with RetinaFace fallback
 - **Embedding Extraction**: ArcFace (R100/R50/MobileFaceNet) with 512-dim vectors
@@ -22,7 +22,7 @@ This software is intended for legitimate research and development purposes only.
 - **Continual Learning**: Hard example mining and experience replay
 - **User Interface**: Streamlit-based testing interface
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -81,8 +81,8 @@ print(f"Same person: {verification['is_match']}")
 ### Running the UI
 
 ```bash
-streamlit run marcus_ui/app.py
-```
+`streamlit run marcus_ui/app.py
+````
 
 ## 📁 Project Structure
 
@@ -108,7 +108,7 @@ marcus-codebase/
 └── tests/                 # Test suite
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 Marcus uses YAML configuration files. See `configs/default.yaml` for all options.
 
@@ -132,7 +132,7 @@ compliance:
   require_consent: true
 ```
 
-## 🔧 API Reference
+## API Reference
 
 ### FacialPipeline
 
@@ -177,7 +177,7 @@ consent_mgr.grant_consent(identity_id="...", granted_by="admin")
 is_valid = consent_mgr.verify_consent(identity_id)
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -187,7 +187,7 @@ pytest tests/
 pytest tests/ --cov=marcus_core --cov-report=html
 ```
 
-## 📊 Performance
+## Performance
 
 | Component | Speed | Hardware |
 |-----------|-------|----------|
@@ -195,7 +195,7 @@ pytest tests/ --cov=marcus_core --cov-report=html
 | ArcFace R100 | ~10ms/face | GPU |
 | FAISS HNSW Search | <1ms/query | CPU (10K vectors) |
 
-## 🛡️ Security & Compliance
+## Security & Compliance
 
 Marcus includes built-in compliance features for UK GDPR:
 
@@ -205,7 +205,7 @@ Marcus includes built-in compliance features for UK GDPR:
 - **Data Retention**: Configurable retention policies
 - **Access Control**: User context tracking
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -213,11 +213,11 @@ Marcus includes built-in compliance features for UK GDPR:
 4. Add tests
 5. Submit a pull request
 
-## 📄 License
+## License
 
 MIT License - See LICENSE file for details.
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [Ultralytics](https://github.com/ultralytics/ultralytics) for YOLOv8
 - [InsightFace](https://github.com/deepinsight/insightface) for ArcFace
